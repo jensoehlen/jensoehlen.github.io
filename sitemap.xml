@@ -64,4 +64,6 @@
   <url>
     <loc>https://jensoehlen.github.io/publication/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc></loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url></urlset>
+    <loc></loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://jensoehlen.github.io/home/</loc><priority>0</priority></url></urlset>
