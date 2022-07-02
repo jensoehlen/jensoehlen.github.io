@@ -258,6 +258,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q587HX9G25"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-Q587HX9G25', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -279,8 +318,8 @@
     <link rel="manifest" href="/manifest.webmanifest" />
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hu409803ac8334c91dbbc53d54c0ba1231_9895139_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu409803ac8334c91dbbc53d54c0ba1231_9895139_180x180_fill_lanczos_center_3.png" />
 
   <link rel="canonical" href="https://jensoehlen.github.io/post/2020-12-01-r-rmarkdown/" />
 
@@ -307,11 +346,11 @@
     <meta property="twitter:site" content="@wowchemy" />
     <meta property="twitter:creator" content="@wowchemy" />
   
-  <meta property="og:site_name" content="Academic" />
+  <meta property="og:site_name" content="Jens Oehlen" />
   <meta property="og:url" content="https://jensoehlen.github.io/post/2020-12-01-r-rmarkdown/" />
-  <meta property="og:title" content="Hello R Markdown | Academic" />
-  <meta property="og:description" content="R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown." /><meta property="og:image" content="https://jensoehlen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://jensoehlen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:title" content="Hello R Markdown | Jens Oehlen" />
+  <meta property="og:description" content="R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown." /><meta property="og:image" content="https://jensoehlen.github.io/media/icon_hu409803ac8334c91dbbc53d54c0ba1231_9895139_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://jensoehlen.github.io/media/icon_hu409803ac8334c91dbbc53d54c0ba1231_9895139_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -357,10 +396,10 @@
   
   "publisher": {
     "@type": "Organization",
-    "name": "Academic",
+    "name": "Test",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://jensoehlen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_3.png"
+      "url": "https://jensoehlen.github.io/media/icon_hu409803ac8334c91dbbc53d54c0ba1231_9895139_192x192_fill_lanczos_center_3.png"
     }
   },
   "description": "R Markdown\rThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown."
@@ -379,7 +418,7 @@
 
 
 
-  <title>Hello R Markdown | Academic</title>
+  <title>Hello R Markdown | Jens Oehlen</title>
 </head>
 
 
@@ -458,7 +497,7 @@
 
       
       <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/">Academic</a>
+        <a class="navbar-brand" href="/">Jens Oehlen</a>
       </div>
       
 
@@ -471,7 +510,7 @@
 
       
       <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/">Academic</a>
+        <a class="navbar-brand" href="/">Jens Oehlen</a>
       </div>
       
 
@@ -551,7 +590,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+            <a class="nav-link " href="/#research"><span>Research</span></a>
           </li>
 
           
@@ -578,91 +617,10 @@
               
             
             
-              
-              
-              
-                
-              
-              
-            
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#projects"><span>Projects</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#talks"><span>Talks</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+            <a class="nav-link " href="/uploads/cv.pdf"><span>CV</span></a>
           </li>
 
           
@@ -727,23 +685,6 @@
 
         
         
-        
-        <li class="nav-item dropdown theme-dropdown">
-          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
-            <i class="fas fa-moon" aria-hidden="true"></i>
-          </a>
-          <div class="dropdown-menu">
-            <a href="#" class="dropdown-item js-set-theme-light">
-              <span>Light</span>
-            </a>
-            <a href="#" class="dropdown-item js-set-theme-dark">
-              <span>Dark</span>
-            </a>
-            <a href="#" class="dropdown-item js-set-theme-auto">
-              <span>Automatic</span>
-            </a>
-          </div>
-        </li>
         
 
         
@@ -1015,13 +956,13 @@ Figure 1: A fancy pie chart.
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://jensoehlen.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu807e19fe18bf4c70766284117477ed20_7979415_270x270_fill_q75_lanczos_center.jpg" alt="Jens Oehlen"></a>
+      <a href="https://jensoehlen.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu838b2fb0f758879f69e469b23da84ae3_1488552_270x270_fill_q75_lanczos_center.jpg" alt="Jens Oehlen"></a>
     
 
     <div class="media-body">
       <h5 class="card-title"><a href="https://jensoehlen.github.io/">Jens Oehlen</a></h5>
       <h6 class="card-subtitle">PhD Candidate in Economics</h6>
-      <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
+      
       <ul class="network-icon" aria-hidden="true">
   
     

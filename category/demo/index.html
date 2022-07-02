@@ -258,6 +258,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q587HX9G25"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-Q587HX9G25', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -274,15 +313,15 @@
   
 
   
-    <link rel="alternate" href="/category/demo/index.xml" type="application/rss+xml" title="Academic" />
+    <link rel="alternate" href="/category/demo/index.xml" type="application/rss+xml" title="Jens Oehlen" />
   
 
   
     <link rel="manifest" href="/manifest.webmanifest" />
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hu409803ac8334c91dbbc53d54c0ba1231_9895139_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu409803ac8334c91dbbc53d54c0ba1231_9895139_180x180_fill_lanczos_center_3.png" />
 
   <link rel="canonical" href="https://jensoehlen.github.io/category/demo/" />
 
@@ -309,11 +348,11 @@
     <meta property="twitter:site" content="@wowchemy" />
     <meta property="twitter:creator" content="@wowchemy" />
   
-  <meta property="og:site_name" content="Academic" />
+  <meta property="og:site_name" content="Jens Oehlen" />
   <meta property="og:url" content="https://jensoehlen.github.io/category/demo/" />
-  <meta property="og:title" content="Demo | Academic" />
-  <meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://jensoehlen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://jensoehlen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:title" content="Demo | Jens Oehlen" />
+  <meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://jensoehlen.github.io/media/icon_hu409803ac8334c91dbbc53d54c0ba1231_9895139_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://jensoehlen.github.io/media/icon_hu409803ac8334c91dbbc53d54c0ba1231_9895139_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta property="og:updated_time" content="2020-12-13T00:00:00&#43;00:00" />
@@ -332,7 +371,7 @@
 
 
 
-  <title>Demo | Academic</title>
+  <title>Demo | Jens Oehlen</title>
 </head>
 
 
@@ -411,7 +450,7 @@
 
       
       <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/">Academic</a>
+        <a class="navbar-brand" href="/">Jens Oehlen</a>
       </div>
       
 
@@ -424,7 +463,7 @@
 
       
       <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/">Academic</a>
+        <a class="navbar-brand" href="/">Jens Oehlen</a>
       </div>
       
 
@@ -504,7 +543,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+            <a class="nav-link " href="/#research"><span>Research</span></a>
           </li>
 
           
@@ -531,91 +570,10 @@
               
             
             
-              
-              
-              
-                
-              
-              
-            
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#projects"><span>Projects</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#talks"><span>Talks</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+            <a class="nav-link " href="/uploads/cv.pdf"><span>CV</span></a>
           </li>
 
           
@@ -680,23 +638,6 @@
 
         
         
-        
-        <li class="nav-item dropdown theme-dropdown">
-          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
-            <i class="fas fa-moon" aria-hidden="true"></i>
-          </a>
-          <div class="dropdown-menu">
-            <a href="#" class="dropdown-item js-set-theme-light">
-              <span>Light</span>
-            </a>
-            <a href="#" class="dropdown-item js-set-theme-dark">
-              <span>Dark</span>
-            </a>
-            <a href="#" class="dropdown-item js-set-theme-auto">
-              <span>Automatic</span>
-            </a>
-          </div>
-        </li>
         
 
         

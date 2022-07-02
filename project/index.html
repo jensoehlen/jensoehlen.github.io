@@ -258,6 +258,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q587HX9G25"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-Q587HX9G25', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -315,8 +354,6 @@
   <meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://jensoehlen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://jensoehlen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
-    
-      <meta property="og:updated_time" content="2016-04-27T00:00:00&#43;00:00" />
     
   
 
@@ -774,13 +811,13 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/project/example/" >Example Project</a>
+      <a href="/project/example/" >Social Policy and Reciprocity – Evidence from East German administrative data</a>
     </div>
 
     
     <a href="/project/example/"  class="summary-link">
       <div class="article-style">
-        An example of using the in-built project page.
+        Effective states rely on cooperative citizens. To foster reciprocity among citizens and the state, I argue, social policy can be key. Using administrative data on civilian bureaucrats in former East Germany I show that women giving birth after introduction of extended maternity leave saw a surge in membership of the ruling party compared to women giving birth shortly before. Beyond the direct impact, I find evidence of two-way intergenerational effects: first, affected grandmothers were more likely to become members, but not grandfathers. Second, in present day surveys, likely affected children lean more towards left-wing ideology, in particular female survey respondents.
       </div>
     </a>
     
@@ -793,56 +830,6 @@
     </div>
 
     
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>Follow</a>
-
-
-    </div>
-    
 
   </div>
   <div class="ml-3">
@@ -851,7 +838,7 @@
     
     <a href="/project/example/" >
       <img src="/project/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_150x0_resize_q75_h2_lanczos.webp" height="84" width="150"
-           alt="Example Project" loading="lazy">
+           alt="Social Policy and Reciprocity – Evidence from East German administrative data" loading="lazy">
     </a>
     
   </div>
@@ -1057,33 +1044,6 @@
     
     
     
-      
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
 
 
 

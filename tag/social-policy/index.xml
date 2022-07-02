@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Social Policy | Jens Oehlen</title>
+    <link>https://jensoehlen.github.io/tag/social-policy/</link>
+      <atom:link href="https://jensoehlen.github.io/tag/social-policy/index.xml" rel="self" type="application/rss+xml" />
+    <description>Social Policy</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jensoehlen.github.io/media/icon_hu409803ac8334c91dbbc53d54c0ba1231_9895139_512x512_fill_lanczos_center_3.png</url>
+      <title>Social Policy</title>
+      <link>https://jensoehlen.github.io/tag/social-policy/</link>
+    </image>
+    
+    <item>
+      <title>Social Policy and Reciprocity – Evidence from East German administrative data</title>
+      <link>https://jensoehlen.github.io/research/example/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://jensoehlen.github.io/research/example/</guid>
+      <description>&lt;p&gt;Effective states rely on cooperative citizens. To foster reciprocity among citizens and the state, I argue, social policy can be key. Using administrative data on civilian bureaucrats in former East Germany I show that women giving birth after introduction of extended maternity leave saw a surge in membership of the ruling party compared to women giving birth shortly before. Beyond the direct impact, I find evidence of two-way intergenerational effects: first, affected grandmothers were more likely to become members, but not grandfathers. Second, in present day surveys, likely affected children lean more towards left-wing ideology, in particular female survey respondents.&lt;/p&gt;
+&lt;p&gt;Available on request&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
