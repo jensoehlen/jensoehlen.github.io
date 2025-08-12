@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coffeehouses | Jens Oehlen</title>
+    <link>https://jensoehlen.github.io/tag/coffeehouses/</link>
+      <atom:link href="https://jensoehlen.github.io/tag/coffeehouses/index.xml" rel="self" type="application/rss+xml" />
+    <description>Coffeehouses</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jensoehlen.github.io/media/icon_hu409803ac8334c91dbbc53d54c0ba1231_9895139_512x512_fill_lanczos_center_3.png</url>
+      <title>Coffeehouses</title>
+      <link>https://jensoehlen.github.io/tag/coffeehouses/</link>
+    </image>
+    
+    <item>
+      <title>Coffeehouses and the Rise of Science</title>
+      <link>https://jensoehlen.github.io/wip/coffeehouses/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://jensoehlen.github.io/wip/coffeehouses/</guid>
+      <description>&lt;p&gt;Coffeehouses, a novel social institution in early modern England, significantly influenced scientific and intellectual progress. In 1962, Jürgen Habermas famously argued that these spaces fostered public debate and critical reasoning, catalyzing the Enlightenment’s scientific advancements through a &amp;ldquo;structural transformation of the public sphere.&amp;rdquo; This paper empirically tests that claim by analyzing newly compiled data on coffeehouse locations in London alongside indicators of early scientific activity, including the presence of mathematical practitioners, scientific instrument makers, members of the Royal Society, and networks within the Republic of Letters. An event study analysis reveals substantial growth in these measures of scientific activity in areas with coffeehouses. Additionally, we examine how coffeehouses facilitated collaborations among scientists and played a crucial role in transmitting tacit scientific knowledge to individuals of lesser means.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

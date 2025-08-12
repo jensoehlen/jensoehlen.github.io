@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Enigma | Jens Oehlen</title>
+    <link>https://jensoehlen.github.io/tag/enigma/</link>
+      <atom:link href="https://jensoehlen.github.io/tag/enigma/index.xml" rel="self" type="application/rss+xml" />
+    <description>Enigma</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jensoehlen.github.io/media/icon_hu409803ac8334c91dbbc53d54c0ba1231_9895139_512x512_fill_lanczos_center_3.png</url>
+      <title>Enigma</title>
+      <link>https://jensoehlen.github.io/tag/enigma/</link>
+    </image>
+    
+    <item>
+      <title>Enigma</title>
+      <link>https://jensoehlen.github.io/research/enigma/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://jensoehlen.github.io/research/enigma/</guid>
+      <description>&lt;p&gt;This paper explores the role of information in warfare. I focus on the Battle of the Atlantic during World War II, where Allied merchant ships faced Nazi U-boats. Combining novel data on Enigma-encrypted messages with different sources of quasi-exogenous variation, I find that information about Nazi U-boat positions significantly reduced their success in attacking Allied ships. In contrast, U-boats’ own survival declined only marginally. Allied strikes were selective, prioritizing high-capacity U-boats, and increased toward the end of the war. This is consistent with a mechanism in which the Allies strategically forewent benefits to safeguard the secrecy of information access. Counterfactual simulations suggest that Enigma intelligence prevented 40 percent of potential shipping losses.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

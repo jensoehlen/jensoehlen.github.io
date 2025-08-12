@@ -13,6 +13,42 @@
     </image>
     
     <item>
+      <title>Coffeehouses and the Rise of Science</title>
+      <link>https://jensoehlen.github.io/wip/coffeehouses/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://jensoehlen.github.io/wip/coffeehouses/</guid>
+      <description>&lt;p&gt;Coffeehouses, a novel social institution in early modern England, significantly influenced scientific and intellectual progress. In 1962, Jürgen Habermas famously argued that these spaces fostered public debate and critical reasoning, catalyzing the Enlightenment’s scientific advancements through a &amp;ldquo;structural transformation of the public sphere.&amp;rdquo; This paper empirically tests that claim by analyzing newly compiled data on coffeehouse locations in London alongside indicators of early scientific activity, including the presence of mathematical practitioners, scientific instrument makers, members of the Royal Society, and networks within the Republic of Letters. An event study analysis reveals substantial growth in these measures of scientific activity in areas with coffeehouses. Additionally, we examine how coffeehouses facilitated collaborations among scientists and played a crucial role in transmitting tacit scientific knowledge to individuals of lesser means.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Enigma</title>
+      <link>https://jensoehlen.github.io/research/enigma/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://jensoehlen.github.io/research/enigma/</guid>
+      <description>&lt;p&gt;This paper explores the role of information in warfare. I focus on the Battle of the Atlantic during World War II, where Allied merchant ships faced Nazi U-boats. Combining novel data on Enigma-encrypted messages with different sources of quasi-exogenous variation, I find that information about Nazi U-boat positions significantly reduced their success in attacking Allied ships. In contrast, U-boats’ own survival declined only marginally. Allied strikes were selective, prioritizing high-capacity U-boats, and increased toward the end of the war. This is consistent with a mechanism in which the Allies strategically forewent benefits to safeguard the secrecy of information access. Counterfactual simulations suggest that Enigma intelligence prevented 40 percent of potential shipping losses.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Leveling the Playing Field: Knowledge Production in the Digital Age</title>
+      <link>https://jensoehlen.github.io/research/scihub/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://jensoehlen.github.io/research/scihub/</guid>
+      <description>&lt;p&gt;80% of all journals are not freely available&amp;mdash;even though access to existing knowledge is crucial for pushing the research frontier. In this paper, we examine the impact of Sci-Hub, an online platform providing free access to scientific articles, on knowledge creation. Using data on 300 million geo-coded download requests, and the near-universe of scientific articles, we employ an instrumented difference-in-differences design. We find that Sci-Hub has significantly changed consumption patterns of scientific works, with a substitution of references from open- to closed-access publications. In turn, greater access to frontier knowledge resulted in higher-quality research output as measured by citations, but not more publications.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Social Policy and Autocracy: Evidence from East German Administrative Data</title>
+      <link>https://jensoehlen.github.io/research/socpol/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://jensoehlen.github.io/research/socpol/</guid>
+      <description>&lt;p&gt;This paper studies the role of social policy in shaping citizen-state relations under autocratic rule. I argue that social policies can increase political support especially when they signal recognition—of citizens’ needs, burdens and social identities. To examine this argument, I focus on the introduction of extended maternity leave in former East Germany, a policy that extended material benefits but also signaled attentiveness to women’s dual roles as workers and caregivers. Using administrative data on civilian bureaucrats, I show that women giving birth after the policy reform saw a surge in membership of the ruling party compared to women giving birth shortly before. I also find suggestive evidence of gendered spillovers: first, affected grandmothers were more likely to become members, but not grandfathers. Second, in present-day surveys, likely affected daughters lean more towards left-wing ideology.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Example Talk</title>
       <link>https://jensoehlen.github.io/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
@@ -34,10 +70,10 @@
     
     <item>
       <title>Social Policy and Reciprocity—Evidence from East German Administrative Data</title>
-      <link>https://jensoehlen.github.io/research/socpol/</link>
+      <link>https://jensoehlen.github.io/research-kopie/socpol/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://jensoehlen.github.io/research/socpol/</guid>
-      <description>&lt;p&gt;Effective states rely on cooperative citizens. To foster reciprocity among citizens and the state, I argue, social policy can be key. Using administrative data on civilian bureaucrats in former East Germany, I show that women giving birth after introduction of extended maternity leave saw a surge in membership of the ruling party compared to women giving birth shortly before. Beyond the direct impact, I find evidence of two-way intergenerational effects: first, affected grandmothers were more likely to become members, but not grandfathers. Second, in present-day surveys, likely affected children lean more towards left-wing ideology, in particular female survey respondents.&lt;/p&gt;
+      <guid>https://jensoehlen.github.io/research-kopie/socpol/</guid>
+      <description>&lt;p&gt;This paper studies the role of social policy in shaping citizen-state relations under autocratic rule. I argue that social policies can increase political support especially when they signal recognition—of citizens’ needs, burdens and social identities. To examine this argument, I focus on the introduction of extended maternity leave in former East Germany, a policy that extended material benefits but also signaled attentiveness to women’s dual roles as workers and caregivers. Using administrative data on civilian bureaucrats, I show that women giving birth after the policy reform saw a surge in membership of the ruling party compared to women giving birth shortly before. I also find suggestive evidence of gendered spillovers: first, affected grandmothers were more likely to become members, but not grandfathers. Second, in presentday surveys, likely affected daughters lean more towards left-wing ideology.&lt;/p&gt;
 </description>
     </item>
     

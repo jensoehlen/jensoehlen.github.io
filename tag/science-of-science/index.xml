@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Science of Science | Jens Oehlen</title>
+    <link>https://jensoehlen.github.io/tag/science-of-science/</link>
+      <atom:link href="https://jensoehlen.github.io/tag/science-of-science/index.xml" rel="self" type="application/rss+xml" />
+    <description>Science of Science</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jensoehlen.github.io/media/icon_hu409803ac8334c91dbbc53d54c0ba1231_9895139_512x512_fill_lanczos_center_3.png</url>
+      <title>Science of Science</title>
+      <link>https://jensoehlen.github.io/tag/science-of-science/</link>
+    </image>
+    
+    <item>
+      <title>Leveling the Playing Field: Knowledge Production in the Digital Age</title>
+      <link>https://jensoehlen.github.io/research/scihub/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://jensoehlen.github.io/research/scihub/</guid>
+      <description>&lt;p&gt;80% of all journals are not freely available&amp;mdash;even though access to existing knowledge is crucial for pushing the research frontier. In this paper, we examine the impact of Sci-Hub, an online platform providing free access to scientific articles, on knowledge creation. Using data on 300 million geo-coded download requests, and the near-universe of scientific articles, we employ an instrumented difference-in-differences design. We find that Sci-Hub has significantly changed consumption patterns of scientific works, with a substitution of references from open- to closed-access publications. In turn, greater access to frontier knowledge resulted in higher-quality research output as measured by citations, but not more publications.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
